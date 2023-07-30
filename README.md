@@ -61,10 +61,12 @@ We use three machine learning models for churn prediction: Naive Bayes, Decision
     - The decision tree model exhibits a reasonable level of accuracy, correctly predicting the churn status of customers in the test subset approximately 79% of the time.
 <br>
 <br>
+
 2. Random Forest Analysis: We use the "randomForest" library to build an ensemble of decision trees to improve the accuracy of predictions.
     - The random forest model shows a slightly higher level of accuracy compared to the decision tree model, achieving an 81.1% correct prediction rate for the churn status of customers in the test subset.
 <br>
 <br>
+
 3. Logistic Regression Analysis: We use logistic regression to model the probability of customer churn based on predictor variables.
     - The logistic regression model exhibits a slightly better performance with an accuracy rate of 81.4%, surpassing both the decision tree and random forest models.
 
